@@ -12,3 +12,7 @@ $(() => {
 
 // use require without a reference to ensure a file is bundled
 require('./example')
+
+const gameBoard = [
+  '1', '2', '3', '4', '5', '6', '7', '8', '9'
+]
