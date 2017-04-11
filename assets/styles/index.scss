@@ -1,2 +1,47 @@
 $icon-font-path: '~bootstrap-sass/assets/fonts/bootstrap/';
 @import '~bootstrap-sass/assets/stylesheets/bootstrap';
+
+.board {
+  max-width:600px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body {
+  height: 100%
+}
+.wrapper {
+  // display: flex;
+  // flex-flow: row wrap;
+  // height: 100%;
+}
+p {
+  width: 100%;
+  font-size: 7vw;
+  margin: auto;
+  text-align: center;
+  display: none
+}
+button {
+  margin: auto;
+  padding: 10px;
+  font-size: 2vw;
+  cursor: pointer;
+  display: none
+}
+.show {
+  display: block
+}
+.hide {
+  display: none !important;
+}
+.box {
+  border: 1px solid black;
+  font-size: 6vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 33.333%;
+}
